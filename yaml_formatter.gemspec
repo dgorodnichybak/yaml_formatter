@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'bundler', '~> 1.16'
-  spec.add_dependency 'activesupport', '~> 5.1', '>= 5.1.4'
+  spec.add_dependency 'activesupport', '>= 5.1.4', '< 7.0'
 
   spec.add_development_dependency 'rspec', '~> 3.8.0'
 end
